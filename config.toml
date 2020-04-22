@@ -1,0 +1,42 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Khanhai's blog"
+
+[permalinks]
+  blog = "/:filename/"
+
+[taxonomies]
+  tag = "tags" 
+
+[[menu.main]]
+    identifier = "home"
+    name = "home"
+    url = "/"
+    weight = -4
+
+[[menu.main]]
+    identifier = "about"
+    name = "about"
+    url = "/about"
+    weight = -3
+
+[[menu.main]]
+    identifier = "blog"
+    name = "blog"
+    url = "/blog"
+    weight = -2
+
+[[menu.main]]
+    identifier = "project"
+    name = "projects"
+    url = "/projects"
+    weight = -1
+
+[[menu.main]]
+  identifier = "cv"
+  name = "cv"
+  url = "/cv"
+  weight = 1
+
+[markup]
+    defaultMarkdownHandler = "blackfriday"
