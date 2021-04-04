@@ -9,8 +9,8 @@ tags : []
 ---
 
 
-<div>
-	<H3> Hello, Welcome to my blog</H3>
+<div class = "welcome">
+	<p> Hello, Welcome to my blog</p>
 </div>
 
 <div class = "wrapper">

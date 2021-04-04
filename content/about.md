@@ -12,9 +12,9 @@ draft: false
 		I initially created this blog as as a way to share my thoughts and projects. 
 	</p>
 	<p>
-		I enjoy reading-- anything -- fiction, non-fiction, nutrition labels. Some particular topics that I enjoy to read about are: mysteries, comedy, fiction, philosophy amonst other things. You can see what I am currently or going to read through my <a href= " https://www.goodreads.com/skylxrkt"> goodreads </a> account. 
+		I enjoy reading-- anything -- fiction, non-fiction, nutrition labels. Some particular topics that I enjoy to read about are: mysteries, comedy, fiction, philosophy amonst other things. You can see what I am currently or going to read through my <a href= " https://www.goodreads.com/skylxrkt"> goodreads </a> account.
 	</p>  
 	<p>
-	If you've got any questions or wish to contact me, you may do so via my <a href="" target="_blank">about page</a>.
+	If you've got any questions or wish to contact me, you may do so via my email skylerthomas @ gmail ". com.
 	</p>
 </div>
