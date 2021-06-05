@@ -1,4 +1,8 @@
 <style>
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+
 .wrapper{
     display: grid;
     grid-template-columns: auto auto;
@@ -28,6 +32,47 @@ header{
     margin-top: 5em;
 }
 
+footer{
+
+    border-color:black;
+    border-top: solid;
+    border-width: 3px;
+}
+
+.social_icons{
+    
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+
+}
+
+button {
+  background-color: whitesmoke; /* Green */
+  border: none;
+  color: #007bff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 36px;
+
+  text-shadow:.5px 1px 2px rgba(128, 128, 128, 0.274);
+
+
+  
+}
+
+
+
+button:hover, a:hover{
+    color: #cda397;
+}
+
+
 .homepage-content{
 
     display:flex;
@@ -49,9 +94,11 @@ header{
 }
 
 img{
-    max-width: 100%;
-    min-width: 200px;
-    height: 200px;
+    max-width: 300px;
+    height: auto;
+    margin-left:auto;
+    margin-right: auto;
+    display: block; 
 }
 
 nav{
@@ -98,6 +145,8 @@ div> p{
 }
 
 
+
+
 @media screen and (max-width: 767px){
 
 
@@ -112,10 +161,24 @@ nav{
 .homepage-content{
 
     font-size: 16px;
-
+    display: flex;
+    flex-direction: column;
+    
 }
 
-    
+.homepage-content> div{
+    grid-column: auto;
+    grid-row: auto;
+}
+
+img{
+    max-width: 150px;
+    height: auto;
+    margin-left:auto;
+    margin-right: auto;
+    display: block; 
+}
+
 }
 
 
